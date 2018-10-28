@@ -39,7 +39,7 @@ public class ClientHomeController {
 	@RequestMapping(value = "/updateClientDetails")
 	public @ResponseBody String updateClientDetails(HttpServletRequest request) {
 		System.out.println("In updateClientDetails");
-
+        System.out.println("arrrrrr");
 		HttpSession session = request.getSession();
 		int id = (int) session.getAttribute("id");
 		Clientclient c1 = si.getClientRecordByUid(id);

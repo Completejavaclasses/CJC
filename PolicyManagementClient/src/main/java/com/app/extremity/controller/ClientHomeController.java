@@ -32,7 +32,7 @@ public class ClientHomeController {
 	@RequestMapping(value = "/PayMoney")
 	public String PayMoneyPage() {
 		System.out.println("In paypal");
-
+		System.out.println("ohh");
 		return "payuform";
 	}
 
